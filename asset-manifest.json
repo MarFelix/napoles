@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/napoles/static/js/main.6da6a1b1.js",
+    "main.js": "/napoles/static/js/main.ef92a50e.js",
+    "static/media/vacaciones.png": "/napoles/static/media/vacaciones.978794653233383a915b.png",
     "static/media/macbook.png": "/napoles/static/media/macbook.e0a8c5d5cc02d71b6d86.png",
     "static/media/bg-coworking.jpeg": "/napoles/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
     "static/media/bg-sign-in-basic.jpeg": "/napoles/static/media/bg-sign-in-basic.f327db1d0e4b00ba3c81.jpeg",
@@ -8,7 +9,6 @@
     "static/media/blog-9-4.jpg": "/napoles/static/media/blog-9-4.de736e0b751f453415a5.jpg",
     "static/media/illustration-reset.jpg": "/napoles/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
     "static/media/blog2.jpg": "/napoles/static/media/blog2.aba7a3cb94805e9557d1.jpg",
-    "static/media/bg-about-us.jpg": "/napoles/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
     "static/media/testimonial-6-2.jpg": "/napoles/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
     "static/media/testimonial-6-3.jpg": "/napoles/static/media/testimonial-6-3.d35bef0d65354442d063.jpg",
     "static/media/team-1.jpg": "/napoles/static/media/team-1.0fd36e0ee93dcfacdef8.jpg",
@@ -26,9 +26,9 @@
     "static/media/logo-nasa.svg": "/napoles/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "static/media/logo-netflix.svg": "/napoles/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/napoles/index.html",
-    "main.6da6a1b1.js.map": "/napoles/static/js/main.6da6a1b1.js.map"
+    "main.ef92a50e.js.map": "/napoles/static/js/main.ef92a50e.js.map"
   },
   "entrypoints": [
-    "static/js/main.6da6a1b1.js"
+    "static/js/main.ef92a50e.js"
   ]
 }
