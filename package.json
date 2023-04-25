@@ -28,7 +28,7 @@
     "web-vitals": "3.3.1"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'napoles.ml' > ./build/CNAME",
+    "predeploy": "npm run build && echo napoles.ml > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "set PORT=7200 && react-scripts start",
     "build": "react-scripts build",
