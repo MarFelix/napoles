@@ -34,9 +34,9 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    icon="event"
+                    title="Entregas Programadas"
+                    description="Para Servicios Nápoles es un placer atenderte, tanto que agendamos todos nuestros eventos para evitar contratiempos"
                   />
                 </MKBox>
               </Grid>
@@ -44,17 +44,17 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Pagos con tranferencias o depositos en oxxo"
+                    description="Con gusto te damos el numero de cuenta o tarjeta para depositar"
                   />
                 </MKBox>
               </Grid>
               <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    icon="savings"
+                    title="Sin costos extra a colonias aledañas"
+                    description="Nuestro servicio es competente, economico, para que tengas menos gastos"
                   />
                 </MKBox>
               </Grid>
@@ -62,8 +62,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Renta por dias o semanas"
+                    description="Para sentirte comodo sin prisas hay un plan para mas dias de lo normal aplicando un 5 % de descuento despues de 4 dias en adelante"
                   />
                 </MKBox>
               </Grid>
@@ -71,9 +71,10 @@ function Information() {
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
-              image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+              image="https://lh3.googleusercontent.com/drive-viewer/AFGJ81rXWYlXCrZrA3NkTcSMzcWJ6QDBjUBzTsHgPLWpun1-utpdeGnV5_KVXyMywAfHJR6ovJcMn-FUjOK62eT_zX7ScjBo4A=s2560"
+              // https://drive.google.com/file/d/1c_gutU0HyCr49smiOiq5QG0xr-p-aCgJ/view?usp=share_link
+              title="Sillas nuevas"
+              description="Manteleria solo blanca por el momento"
               action={{
                 type: "internal",
                 route: "pages/company/about-us",

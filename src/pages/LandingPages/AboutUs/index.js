@@ -40,7 +40,7 @@ import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from "assets/images/vacaciones.png";
 
 function AboutUs() {
   return (
@@ -83,7 +83,7 @@ function AboutUs() {
               Sillas y mesas Nápoles
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              Alquilamos Mesas , Sillas y Manteles, El servicio en nuestra empresa es primero.
+              Alquilamos Sillas , Mesas y Manteles, El servicio en nuestra empresa es primero.
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               Cotización
