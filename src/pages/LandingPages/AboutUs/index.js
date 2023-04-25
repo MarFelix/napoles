@@ -11,6 +11,8 @@ Coded by www.creative-tim.com
  =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Customizado Por Carlos Mar 2023
 */
 
 // @mui material components
@@ -24,7 +26,7 @@ import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+// import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
@@ -34,7 +36,7 @@ import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
 import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
 // Routes
-import routes from "routes";
+// import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
@@ -43,17 +45,6 @@ import bgImage from "assets/images/bg-about-us.jpg";
 function AboutUs() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "default",
-        }}
-        transparent
-        light
-      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -89,30 +80,37 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              Sillas y mesas Nápoles
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              Alquilamos Mesas , Sillas y Manteles, El servicio en nuestra empresa es primero.
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              create account
+              Cotización
             </MKButton>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
-              Find us on
+              Síguenos
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
+              <MKTypography
+                component="a"
+                variant="body1"
+                color="white"
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100066741323747"
+                mr={3}
+              >
                 <i className="fab fa-facebook" />
               </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-instagram" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-twitter" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#">
-                <i className="fab fa-google-plus" />
+              <MKTypography
+                component="a"
+                variant="body1"
+                color="white"
+                target="_blank"
+                href="https://goo.gl/maps/8ux4VkJ1Xuv13F8F9"
+                mr={3}
+              >
+                <i className="fas fa-map" />
               </MKTypography>
             </MKBox>
           </Grid>
