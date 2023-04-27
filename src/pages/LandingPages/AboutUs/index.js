@@ -16,9 +16,13 @@ Customizado Por Carlos Mar 2023
 */
 
 // @mui material components
+import { useState } from "react";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
+import Modal from "@mui/material/Modal";
+import Divider from "@mui/material/Divider";
+import Slide from "@mui/material/Slide";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -42,7 +46,13 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/headerBg.png";
 
+// @mui icons
+import CloseIcon from "@mui/icons-material/Close";
+
 function AboutUs() {
+  const [show, setShow] = useState(false);
+  const toggleModal = () => setShow(!show);
+
   return (
     <>
       <MKBox
@@ -85,9 +95,53 @@ function AboutUs() {
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               Alquilamos Sillas , Mesas y Manteles, El servicio en nuestra empresa es primero.
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+            <MKButton
+              color="default"
+              sx={{ color: ({ palette: { dark } }) => dark.main }}
+              onClick={toggleModal}
+            >
               Cotización
             </MKButton>
+            <Modal open={show} onClose={toggleModal} sx={{ display: "grid", placeItems: "center" }}>
+              <Slide direction="down" in={show} timeout={500}>
+                <MKBox
+                  position="relative"
+                  width="500px"
+                  display="flex"
+                  flexDirection="column"
+                  borderRadius="xl"
+                  bgColor="white"
+                  shadow="xl"
+                >
+                  <MKBox display="flex" alignItems="center" justifyContent="space-between" p={2}>
+                    <MKTypography variant="h5">Your modal title</MKTypography>
+                    <CloseIcon fontSize="medium" sx={{ cursor: "pointer" }} onClick={toggleModal} />
+                  </MKBox>
+                  <Divider sx={{ my: 0 }} />
+                  <MKBox p={2}>
+                    <MKTypography variant="body2" color="secondary" fontWeight="regular">
+                      Society has put up so many boundaries, so many limitations on what&apos;s
+                      right and wrong that it&apos;s almost impossible to get a pure thought out.
+                      <br />
+                      <br />
+                      It&apos;s like a little kid, a little boy, looking at colors, and no one told
+                      him him what colors are good, before somebody tells you you shouldn&apos;t
+                      like because that&apos;s for girls, or you&apos;d instantly become a gay
+                      two-year-old.
+                    </MKTypography>
+                  </MKBox>
+                  <Divider sx={{ my: 0 }} />
+                  <MKBox display="flex" justifyContent="space-between" p={1.5}>
+                    <MKButton variant="gradient" color="dark" onClick={toggleModal}>
+                      close
+                    </MKButton>
+                    <MKButton variant="gradient" color="info">
+                      save changes
+                    </MKButton>
+                  </MKBox>
+                </MKBox>
+              </Slide>
+            </Modal>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Síguenos
             </MKTypography>
