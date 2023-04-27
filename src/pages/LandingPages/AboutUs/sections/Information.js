@@ -79,7 +79,7 @@ function Information() {
                 type: "internal",
                 route: "pages/company/about-us",
                 color: "info",
-                label: "find out more",
+                label: "Llama ahora",
               }}
             />
           </Grid>

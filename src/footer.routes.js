@@ -1,89 +1,73 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+import logoCT from "assets/images/logoNapoles.png";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "Sllas y Mesas Nápoles",
     image: logoCT,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
-    },
-    {
-      icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
-    },
-    {
-      icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.facebook.com/profile.php?id=100066741323747",
     },
   ],
   menus: [
     {
-      name: "company",
+      name: "Nosotros",
       items: [
         { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        // { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
+        // { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
+        // { name: "blog", href: "https://www.creative-tim.com/blog" },
       ],
     },
     {
       name: "resources",
       items: [
         { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
+        // { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
+        // { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
       ],
     },
     {
-      name: "help & support",
+      name: "Ayuda y soporte",
       items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "Contáctanos", href: "https://www.creative-tim.com/contact-us" },
+        // { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
+        // { name: "custom development", href: "https://services.creative-tim.com/" },
+        // { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
       ],
     },
     {
-      name: "legal",
+      name: "Legal",
       items: [
         { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "Aviso de Privacidad", href: "https://www.creative-tim.com/privacy" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Sillas y Mesas Nápoles create by{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="https://www.linkedin.com/in/carlos-adrian-mar29052021"
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Carlos Mar
       </MKTypography>
       .
     </MKTypography>
