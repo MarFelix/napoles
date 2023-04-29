@@ -77,7 +77,7 @@ function Information() {
               description="Manteleria solo blanca por el momento"
               action={{
                 type: "internal",
-                route: "pages/company/about-us",
+                route: "/cotizacion",
                 color: "info",
                 label: "Llama ahora",
               }}

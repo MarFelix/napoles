@@ -17,6 +17,7 @@ Customizado Por Carlos Mar 2023
 
 // @mui material components
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -98,7 +99,8 @@ function AboutUs() {
             <MKButton
               color="default"
               sx={{ color: ({ palette: { dark } }) => dark.main }}
-              onClick={toggleModal}
+              component={Link}
+              to="/cotizacion"
             >
               Cotización
             </MKButton>
