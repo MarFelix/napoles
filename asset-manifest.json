@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.78303478.js",
+    "main.js": "/static/js/main.36b96d0b.js",
     "static/media/headerBg.png": "/static/media/headerBg.37eb2c612b3ed0d246b5.png",
     "static/media/mayo2023.png": "/static/media/mayo2023.9d181f30a0d8231122db.png",
     "static/media/mesasSillas.png": "/static/media/mesasSillas.0a79c7d4adfe501d0152.png",
@@ -12,6 +12,9 @@
     "static/media/blog2.jpg": "/static/media/blog2.aba7a3cb94805e9557d1.jpg",
     "static/media/testimonial-6-2.jpg": "/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
     "static/media/testimonial-6-3.jpg": "/static/media/testimonial-6-3.d35bef0d65354442d063.jpg",
+    "static/media/mesa.png": "/static/media/mesa.15d6fec9a713914da7cf.png",
+    "static/media/silla.png": "/static/media/silla.f4c2b32241951c34d585.png",
+    "static/media/mantel2.png": "/static/media/mantel2.fb87a346463b18ecbb7e.png",
     "static/media/team-1.jpg": "/static/media/team-1.0fd36e0ee93dcfacdef8.jpg",
     "static/media/bruce-mars.jpg": "/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
     "static/media/team-2.jpg": "/static/media/team-2.13ae2ce3e12f4cfed420.jpg",
@@ -19,9 +22,9 @@
     "static/media/team-3.jpg": "/static/media/team-3.0ef0be95e6850814c79e.jpg",
     "static/media/team-4.jpg": "/static/media/team-4.85c82b6e60178804017f.jpg",
     "index.html": "/index.html",
-    "main.78303478.js.map": "/static/js/main.78303478.js.map"
+    "main.36b96d0b.js.map": "/static/js/main.36b96d0b.js.map"
   },
   "entrypoints": [
-    "static/js/main.78303478.js"
+    "static/js/main.36b96d0b.js"
   ]
 }
