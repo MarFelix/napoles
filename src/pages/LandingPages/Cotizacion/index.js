@@ -40,6 +40,8 @@ import mantel from "assets/images/mantel2.png";
 // Presentation page components
 import CardProduct from "pages/Presentation/components/CardProduct";
 
+import MuiPhoneNumber from "material-ui-phone-number";
+
 function Cotizacion() {
   return (
     <>
@@ -99,29 +101,41 @@ function Cotizacion() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                Cotización en proceso , todas las cotizaciones se pasan a revision todo esto es para
-                dar un mejor servicio por favor selecciona la cantidad de sillas, mesas manteles
+                Cotización en proceso , todas las cotizaciones se pasan a revisión todo esto es para
+                dar un mejor servicio por favor selecciona la cantidad de sillas, mesas y manteles
                 fecha y direccion a donde se va enviar.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={2}>
-                    <CardProduct image={image} name="Silla Cannes" count={10} type="1" />
+                    <CardProduct image={image} name="Silla Cannes" count={10} type={1} />
                   </Grid>
                   <Grid item xs={12} md={2}>
                     <MKInput type="number" label="¿Cuantas Sillas necesitas?" fullWidth />
                   </Grid>
                   <Grid item xs={12} md={2}>
-                    <CardProduct image={mesa} name="Mesa LIFETIME" count={10} type="2" />
+                    <CardProduct image={mesa} name="Mesa LIFETIME" count={10} type={2} />
                   </Grid>
                   <Grid item xs={12} md={2}>
                     <MKInput type="number" label="¿Cuantas Mesas necesitas?" fullWidth />
                   </Grid>
                   <Grid item xs={12} md={2}>
-                    <CardProduct image={mantel} name="Mantel Blanco" count={10} type="3" />
+                    <CardProduct image={mantel} name="Mantel Blanco" count={10} type={3} />
                   </Grid>
                   <Grid item xs={12} md={2}>
                     <MKInput type="number" label="¿Cuantos Manteles?" fullWidth />
+                  </Grid>
+
+                  <Grid item xs={12} md={4}>
+                    <MKInput
+                      type="text"
+                      required
+                      label="Escribe tu nombre con al menos un apellido"
+                      fullWidth
+                    />
+                  </Grid>
+                  <Grid item xs={12} md={4}>
+                    <MuiPhoneNumber defaultCountry="it" regions={"europe"} variant="outlined" />
                   </Grid>
 
                   {/* <Grid item xs={12} md={6}>
